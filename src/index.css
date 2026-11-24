@@ -1,0 +1,68 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Roboto", "Segoe UI", Arial, sans-serif;
+  --font-serif: "Roboto", "Segoe UI", Arial, sans-serif;
+  --color-slate-50: #f3f8f7;
+  --color-slate-100: #e6f0ee;
+  --color-slate-200: #cfdfdc;
+  --color-slate-300: #b0cbc7;
+  --color-slate-400: #88aaa7;
+  --color-slate-500: #607f7f;
+  --color-slate-600: #47686b;
+  --color-slate-700: #30535e;
+  --color-slate-800: #204451;
+  --color-slate-900: #123541;
+  --color-slate-950: #0a2430;
+  --color-amber-50: #fff8eb;
+  --color-amber-100: #ffedc7;
+  --color-amber-200: #ffdb91;
+  --color-amber-300: #f8c46a;
+  --color-amber-400: #f0ae44;
+  --color-amber-500: #df922d;
+  --color-amber-600: #c57623;
+  --color-amber-700: #a65c20;
+  --color-amber-800: #88491f;
+  --color-amber-900: #713d1e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f3f8f7;
+  color: #123541;
+  font-family: var(--font-sans);
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-amber-500);
+}
+
+::selection {
+  background: #ffdb91;
+  color: #0a2430;
+}
