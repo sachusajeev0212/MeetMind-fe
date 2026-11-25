@@ -15,9 +15,11 @@ function Headers() {
       <div className="border-b border-slate-100 bg-white/95 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link to="/" className="flex items-center gap-3">
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient from-slate-900 to-slate-700 text-2xl text-amber-300 shadow-md shadow-slate-900/20">
-              🎙️
-            </span>
+            <img
+              src={`${import.meta.env.BASE_URL}favicon.svg`}
+              alt=""
+              className="h-11 w-11 rounded-xl shadow-md shadow-slate-900/20"
+            />
             <span className="font-serif text-2xl font-bold tracking-wide text-slate-900">
               MEETMIND
             </span>
